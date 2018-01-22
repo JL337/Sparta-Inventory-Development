@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-lg-4">
+      <h1><%= @item.description %></h1>
+      
+      <%= render 'form', item: @item %>
+
+      <a class="btn btn-success largeBtn" href="/items/" role="button">Items </a>
+    </div>
+  </div>
+</div>

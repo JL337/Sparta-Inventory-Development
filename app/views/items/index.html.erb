@@ -1,0 +1,64 @@
+<div class="container-fluid" id="items">
+  <div class="row">
+      <div class="col-xs-12">
+          <h1>Items</h1>
+
+          <div class="summary">
+            <div>
+              Total : <%= @items.length %>
+            </div>
+            <div>
+              Available : <%= @available %>
+            </div>
+            <div>
+              Out : <%= @out %>
+            </div>
+          </div>
+
+          <a class="btn btn-success largeBtn" href="/items/new" role="button">Add new Item </a>
+
+          <table class="table table-hover">
+             <thead>
+                <tr>
+                  <th>Serial Number</th>
+                  <th>Description</th>
+                  <th>Academy</th>
+                  <th>Supplier</th>
+                  <th>Status</th>
+                  <th>Lender</th>
+                  <th>Borrower</th>
+                  <th>Due Date</th>
+                  <th>Actions</th>
+                </tr>
+             </thead>
+            <% @items.each do |item| %>
+              <tr>
+                <td><%= item.serial %></td> 
+                <td><a href="<%= edit_item_path item %>"><%= item.description %></a></td>
+                <td><%= item.academy.try(:name) %></td>
+                <% if(item.supplier_id) %>
+                <td><%= Supplier.find(item.supplier_id).name %></td>
+                <% else %>
+                <td>None</td>
+                <% end %>
+                <% if item.current %>
+                  <td class="checked-out">
+                    <%= link_to "Check-in", checkin_log_path(item.current), data: { confirm: 'Are you sure?' } %>    
+                  </td> 
+                  <td><%= item.current.try(:lender).try(:name) %></td>
+                  <td><%= item.current.try(:borrower).try(:name) %></td>
+                  <td class="<%= item.current.due_date.to_date < @date.to_date ? '' : 'due' %>">
+                    <%= item.current.due_date%>
+                  </td>
+                <% else %>
+                  <td colspan = "4" class="available">Available</td>
+                <% end %>
+                <td>
+                  <%= link_to 'delete', item, method: :delete, data: { confirm: 'Are you sure?' } %>
+                </td>
+              </tr>
+            <%end%>
+          </table>
+    </div>
+  </div>
+</div>

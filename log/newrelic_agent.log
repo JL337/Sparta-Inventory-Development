@@ -1,0 +1,96 @@
+# Logfile created on 2018-01-22 16:38:16 +0000 by logger.rb/56815
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Reading configuration from config/newrelic.yml (/Users/tech-a23/Desktop/classwork/sparta-inventory)
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Environment: development
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : No known dispatcher detected.
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Application: Sparta Inventory (Development)
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing ActiveRecord 5 instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing Net instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing ActiveJob instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing Rails 5 Controller instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing Rails 5 view instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Installing Rails 5 Action Cable instrumentation
+[2018-01-22 16:38:16 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Finished instrumentation
+[2018-01-22 16:38:17 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-22 16:38:19 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1792660/applications/81342957
+[2018-01-22 16:38:34 +0000 Tech-A23s-MacBook-Air.local (89713)] INFO : Starting Agent shutdown
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Reading configuration from config/newrelic.yml (/Users/tech-a23/Desktop/classwork/sparta-inventory)
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Environment: development
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : No known dispatcher detected.
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Application: Sparta Inventory (Development)
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing ActiveRecord 5 instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing Net instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing ActiveJob instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing Rails 5 Controller instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing Rails 5 view instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Installing Rails 5 Action Cable instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Finished instrumentation
+[2018-01-22 16:38:54 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-22 16:38:55 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1792660/applications/81342957
+[2018-01-22 16:39:33 +0000 Tech-A23s-MacBook-Air.local (89822)] INFO : Starting Agent shutdown
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Reading configuration from config/newrelic.yml (/Users/tech-a23/Desktop/classwork/sparta-inventory)
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Environment: development
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : No known dispatcher detected.
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Application: Sparta Inventory (Development)
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing ActiveRecord 5 instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing Net instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing ActiveJob instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing Rails 5 Controller instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing Rails 5 view instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Installing Rails 5 Action Cable instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Finished instrumentation
+[2018-01-22 16:48:16 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-22 16:48:19 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1792660/applications/81342957
+[2018-01-22 16:48:23 +0000 Tech-A23s-MacBook-Air.local (90148)] INFO : Starting Agent shutdown
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Reading configuration from config/newrelic.yml (/Users/tech-a23/Desktop/classwork/sparta-inventory)
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Environment: development
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : No known dispatcher detected.
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Application: Sparta Inventory (Development)
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing ActiveRecord 5 instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing Net instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing ActiveJob instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing Rails 5 Controller instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing Rails 5 view instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Installing Rails 5 Action Cable instrumentation
+[2018-01-22 21:13:46 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Finished instrumentation
+[2018-01-22 21:13:47 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-22 21:13:52 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1792660/applications/81342957
+[2018-01-22 21:14:52 +0000 Tech-A23s-MacBook-Air.local (91345)] INFO : Starting Agent shutdown
+[2018-01-22 21:30:27 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-01-22 21:30:27 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-22 21:30:27 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Reading configuration from config/newrelic.yml (/Users/tech-a23/Desktop/classwork/inventory-dev)
+[2018-01-22 21:30:27 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Environment: development
+[2018-01-22 21:30:27 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : No known dispatcher detected.
+[2018-01-22 21:30:27 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Application: Sparta Inventory (Development)
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing ActiveRecord 5 instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing Net instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing ActiveJob instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing Rails 5 Controller instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing Rails 5 view instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Installing Rails 5 Action Cable instrumentation
+[2018-01-22 21:30:28 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Finished instrumentation
+[2018-01-22 21:30:29 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-22 21:30:31 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1792660/applications/81342957
+[2018-01-22 21:31:25 +0000 Tech-A23s-MacBook-Air.local (91961)] INFO : Starting Agent shutdown
